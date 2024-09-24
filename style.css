@@ -1,0 +1,23 @@
+col-6{
+    display: flex; /* Habilita flexbox */
+    justify-content: space-between; /* Espacio entre los elementos */
+    padding: 20px;
+}
+
+.izquierda, .derecha {
+    width: 48%; /* Ambas mitades ocupan un 48% del espacio */
+    padding: 20px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+ }
+
+ .seccion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna {
+    width: 48%; /* Ajusta el tamaño de cada columna (48% para el espacio entre columnas) */
+    padding: 10px;
+    background-color: lightgray;
+ }
