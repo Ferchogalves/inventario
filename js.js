@@ -115,4 +115,4 @@ document.getElementById("tablab").addEventListener("click", (e) => {
         precio.value = tr.children[2].textContent;
         tr.remove(); 
     }
-});
+})
